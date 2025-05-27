@@ -1,1 +1,119 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+header img {
+  width:200px;
+  height: auto;
+  margin: 20px auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  text-shadow: -1px -1px 0px white, 1px -1px 0px white, -1px 1px 0px white, 1px 1px 0px white;
+  color:#26093A;
+  margin: 20px auto;
+}
+
+main {
+  margin: 0 auto;
+  padding: 5px 50px;
+  background-color: #26093A;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+#cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #26093A;
+  border-radius: 40px;
+  padding: 20px;
+  width: fit-content;
+
+  input:nth-child(-n+2) {
+    height: 70px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+
+    font-size: 14px;
+    color:#FFFFFF;
+
+    &:focus {
+      outline: none;
+      border-color: #fc2bee;
+      color: #fc2bee;
+    }
+  }
+
+  button{
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    color: #26093A;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 3px, 5px 0 #fc2bee;
+
+  }
+}
+
+footer {
+  width: fit-content;
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  #texto-legal {
+    margin: 10px 50px;
+
+    p {
+      font-size: 10px;
+      color: #FFFFFF;
+      margin: 5px 0;
+      font-weight: normal;
+    }
+
+    h2{
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin: 5px 0;
+    }
+    
+  }
+
+  #checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: small;
+
+    #radio {
+      appearance: auto;
+      height: 15px;
+      width: 15px;
+      cursor: pointer;
+    }
+  }}
