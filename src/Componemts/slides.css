@@ -15,21 +15,24 @@
 
 }
 
-#redes {
+.redes {
+  display: none;
+}
 
-  visibility: hidden;
+.redesover {
   border-radius: 0 0 40px 40px;
   font-weight: bold;
   text-transform: none;
   background-color: #26093a9d;
-  position: relative;
-  bottom: 50.5px;
+  position: absolute;
+  bottom: 38px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
   gap: 10px;
   color: white;
+  width: 813px;
 }
 
 .slides {

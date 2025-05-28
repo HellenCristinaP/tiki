@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import Events from './Componemts/events.jsx';
 
@@ -7,6 +7,8 @@ function App() {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [aceito, setAceito] = useState(false);
+  const button = document.querySelector("#enviar");
+
   // Função para lidar com o envio do formulário
   const handleSubmit = (event) => {
     // Cancela o recarregamento da página
@@ -15,14 +17,18 @@ function App() {
     if (nome === '' || email === '' || !aceito) {
       alert('Por favor, preencha todos os campos e aceite a política de privacidade.');
       return;
-
-    }
+    } 
 
     // Limpar campos
     setNome('');
     setEmail('');
     setAceito(false);
   };
+
+  const handleClick = (event) => {
+      button.disabled = true;
+      button.value = 'Enviado...';
+  }
 
   return (
     <div>
@@ -75,7 +81,7 @@ function App() {
                 Declaro que li e aceito a <a href="#">política de privacidade</a>
               </label>
             </div>
-            <button type="submit" id="enviar">Enviar</button>
+            <button type="submit" id="enviar" onClick={handleClick}>Enviar</button>
           </form>
         </div>
         <div id='texto-legal'>
