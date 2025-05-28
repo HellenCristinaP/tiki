@@ -1,12 +1,14 @@
-# React + Vite
+# Projeto TIKI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Desafios/problemas.
 
-Currently, two official plugins are available:
+Nunca usei JavaScript no React, então todos os hooks eu descobri e aprendi durante o processo de produção.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Desafio | Sobre a Ideia                                      | Estado    | Nível de dificuldade (na minha opinião) |
+|-----------------|-----------------------------------------------------|-----------|--------------------|
+|  Como colocar JavaScript no React?  | Usando useEffect e useStatus | Concluído | Médio |
+|  Colocar imagens  | Não sei o motivo que a imagem "duração3.png" e a "imagem.svg" não esta aparecendo na aplicação | Não concluído | Díficil |
+|  Fazer o slick em JS puro  | Nunca fiz carrousel em JS puro, somente em jQuery, porém, seu eu usar a mesma lógica, o código não vai ficar muito grande, dificultando manutenção  | Não concluído | Médio |
 
-## Expanding the ESLint configuration
+## Instruções necessárias para rodar o código.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
