@@ -9,6 +9,7 @@ Nunca usei JavaScript no React, então todos os hooks eu descobri e aprendi dura
 |  Como colocar JavaScript no React?  | Usando useEffect e useStatus | Concluído | Médio |
 |  Colocar imagens  | Não sei o motivo que a imagem "duração3.png" e a "imagem.svg" não esta aparecendo na aplicação | Não concluído | Díficil |
 |  Fazer o slick em JS puro  | Nunca fiz carrousel em JS puro, somente em jQuery, porém, seu eu usar a mesma lógica, o código vai ficar muito grande e de dificultando manutenção  | Não concluído | Médio |
+| Colocar imagens em volta de uma div, para fazer o fundo | Fácil, porém, acredito que ficara de dificil manutenção | Não concluído |
 
 ## Melhorias de aprendizado
 
@@ -19,3 +20,5 @@ Nunca usei JavaScript no React, então todos os hooks eu descobri e aprendi dura
 ## Instruções necessárias para rodar o código.
 
 [Faça um fork no projeto](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) -> faça [um clone](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository) -> baixe as dependências do projeto: abra o prompt de comando no seu IDE e digite "npm install" -> faça o comando "npm run dev" para rodar
+
+Fiz um deploy no github pages, mas não está do jeitinho que aparece no vite: https://hellencristinap.github.io/tiki/
